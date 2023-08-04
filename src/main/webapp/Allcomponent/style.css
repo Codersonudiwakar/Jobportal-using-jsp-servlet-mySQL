@@ -1,0 +1,171 @@
+
+body {
+	margin: auto;
+	padding: auto;
+}
+.bg-light{
+	background-color:green;
+}
+button a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+footer {
+  background: rgb(56, 54, 54);
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav-item {
+  width: 25%;
+  height: 300px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  background: rgb(56, 54, 54);
+}
+
+.footer-nav-item h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+}
+
+.footer-nav-item li {
+  font-size: 20px;
+  color: black;
+  margin-right: 15px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+@media(max-width:1000px) {
+  .footer-nav-item {
+    width: 45%;
+  }
+}
+
+@media(max-width:750px) {
+  .footer-nav-item {
+    width: 100%;
+  }
+}
+.login-container {
+  width: 400px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top:50px;
+  border: 1px solid #ccc;
+}
+
+.login-container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  opacity: 0.8;
+}
+
+.login-container .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.signup-container{
+  width: 700px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top:50px;
+  border: 1px solid #ccc;
+}
+.signup-container input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.signup-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup-container button:hover {
+  opacity: 0.8;
+}
+
+.job-container {
+  width: 900px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top:50px;
+  border: 1px solid #ccc;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .job {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      width: 90%;
+    }
+    .job h2 {
+    text-align: center;
+      
+    }
+    .job p {
+      margin: 5px 0;
+    }
+ 
