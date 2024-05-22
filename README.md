@@ -1,1 +1,1 @@
-# Jobportal-using-jsp-servlet-mySQl
+# Job Portal Using JSP Servlet and MySQL Database 
